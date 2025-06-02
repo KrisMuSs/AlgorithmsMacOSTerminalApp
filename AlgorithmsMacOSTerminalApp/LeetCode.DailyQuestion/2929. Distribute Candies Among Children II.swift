@@ -11,7 +11,8 @@ func distributeCandies(_ n: Int, _ limit: Int) -> Int {
 
     let firstMin = max(0, n - 2 * limit)
     let firstMax = min(limit, n)
-
+    
+   // A = i
     for i in firstMin...firstMax {
         // Диапазон возможных значений для второго ребёнка
     
